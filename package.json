@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-design-patern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/seongjin605/nodejs-design-patern.git",
+  "author": "preciouStar <seongjin605@users.noreply.github.com>",
+  "license": "MIT"
+}
