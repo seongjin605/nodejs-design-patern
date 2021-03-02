@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "https://github.com/seongjin605/nodejs-design-patern.git",
   "author": "preciouStar <seongjin605@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -w -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.9"
+  },
+  "dependencies": {
+    "immer": "^8.0.1"
+  }
 }
