@@ -4,10 +4,8 @@ module.exports = {
     node: true,
     es6: true
   },
-  parser: 'babel-eslint',
   parserOptions: {
-    sourceType: 'module',
-    allowImportExportEverywhere: true
+    ecmaVersion: 2018
   },
   extends: ['eslint:recommended'],
   plugins: [],
